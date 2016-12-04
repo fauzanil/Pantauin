@@ -1,21 +1,29 @@
 
-//library
+// References :
+// https://blog.noser.com/arduino-iot-with-mqtt-and-nanopb/
+// https://github.com/jesionaj/ESP8266-MQTT-PB
+
+
+//Sensor library
 
 #include <DHT.h>;
-#include <ESP8266WiFi.h>
 #include <PubSubClient.h>
-#include <Wire.h>
 
+//ESP8266 Library
+#include <ESP8266WiFi.h>
 
+//MQTT Library
+#include <PubSubClient.h>
+
+//NanoProtoBuf Library
+#include "pb.h"
+#include "pb_encode.h"
+#include "pantauinMessage.pb.h"
 
 //Constants DHT22
 #define DHTPIN 2     // D4 in wemos d1 mini
 #define DHTTYPE DHT22   // DHT 22  (AM2302)
 DHT dht(DHTPIN, DHTTYPE); //// initialize the DHT Sensor
-
-//Nanopb lib
-
-#
 
 
 
