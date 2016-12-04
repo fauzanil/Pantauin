@@ -1,0 +1,5 @@
+message Pantauin{
+    required string id = 1;
+    required float sensorValue = 2;
+    optional bool nodeStatus = 3;
+}
