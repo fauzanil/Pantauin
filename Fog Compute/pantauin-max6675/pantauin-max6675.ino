@@ -38,7 +38,7 @@ boolean sensorStatus; //used to mark substances detection
 
 // MQTT config
 
-const char SERVER[] = "192.168.0.105";
+const char SERVER[] = "192.168.0.106";
 const int SERVERPORT = 1883;
 #define ID "max6657"
 PubSubClient client(WirelessCon);
@@ -97,8 +97,8 @@ void mqttConnect()
 void setup() {
   
   Serial.begin(9600);
-
-
+  pinMode(LED_BUILTIN, OUTPUT); 
+  
 
   //connect to wifi
   connectWiFi();
@@ -144,10 +144,12 @@ void loop() {
   else
   {
     // If successful, send the message out
-    client.publish("temp/1", sMsg, buffer.bytes_written);
+    digitalWrite(LED_BUILTIN, LOW); 
+    client.publish("pantauin/max6675", sMsg, buffer.bytes_written);
+    digitalWrite(LED_BUILTIN, HIGH); 
   }
 
-  delay(200); 
+  delay(5000); 
 }
 
 

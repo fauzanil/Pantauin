@@ -1,0 +1,40 @@
+2016-12-28T11:14:16.140320939 20.572196s notice: Recursively removing directory /home/fauzanil/PycharmProjects/Pantauin/Backend/rethinkdb_data/tmp
+2016-12-28T11:14:16.282772915 20.714647s notice: Initializing directory /home/fauzanil/PycharmProjects/Pantauin/Backend/rethinkdb_data
+2016-12-28T11:14:16.282861962 20.714736s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/home/fauzanil/PycharmProjects/Pantauin/Backend/rethinkdb_data' did not already exist or is empty.)
+2016-12-28T11:14:16.282902478 20.714777s notice: Running rethinkdb 2.3.5~0xenial (GCC 5.3.1)...
+2016-12-28T11:14:16.311580399 20.743458s notice: Running on Linux 4.4.0-53-generic x86_64
+2016-12-28T11:14:16.311649444 20.743524s notice: Loading data from directory /home/fauzanil/PycharmProjects/Pantauin/Backend/rethinkdb_data
+2016-12-28T11:14:16.674131242 21.106006s info: Automatically using cache size of 100 MB
+2016-12-28T11:14:16.674403925 21.106278s warn: Cache size is very low and may impact performance.
+2016-12-28T11:14:16.674771888 21.106646s notice: Listening for intracluster connections on port 29015
+2016-12-28T11:14:16.686253527 21.118128s notice: Listening for client driver connections on port 28015
+2016-12-28T11:14:16.686445278 21.118319s notice: Listening for administrative HTTP connections on port 8080
+2016-12-28T11:14:16.686449665 21.118324s notice: Listening on cluster addresses: 127.0.0.1, 127.0.1.1, ::1
+2016-12-28T11:14:16.686452762 21.118327s notice: Listening on driver addresses: 127.0.0.1, 127.0.1.1, ::1
+2016-12-28T11:14:16.686456323 21.118330s notice: Listening on http addresses: 127.0.0.1, 127.0.1.1, ::1
+2016-12-28T11:14:16.686458069 21.118332s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-12-28T11:14:16.686461053 21.118335s notice: Server ready, "Salted_Eggs_3cf" ffd93f3b-4396-4e2d-b70c-72ccfb3cb78a
+2016-12-28T11:16:57.736758340 182.168633s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2016-12-28T11:16:57.736958985 182.168834s notice: Shutting down client connections...
+2016-12-28T11:16:57.737181837 182.169057s notice: All client connections closed.
+2016-12-28T11:16:57.737187530 182.169062s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-12-28T11:16:57.737661690 182.169536s notice: Storage engine shut down.
+2016-12-28T11:21:11.120997554 0.230365s notice: Running rethinkdb 2.3.5~0xenial (GCC 5.3.1)...
+2016-12-28T11:21:11.123556597 0.232936s notice: Running on Linux 4.4.0-53-generic x86_64
+2016-12-28T11:21:11.123637579 0.233005s notice: Loading data from directory /home/fauzanil/PycharmProjects/Pantauin/Backend/rethinkdb_data
+2016-12-28T11:21:11.314808522 0.424176s info: Automatically using cache size of 100 MB
+2016-12-28T11:21:11.314928575 0.424296s warn: Cache size is very low and may impact performance.
+2016-12-28T11:21:11.315255906 0.424623s notice: Listening for intracluster connections on port 29015
+2016-12-28T11:21:11.327482363 0.436849s notice: Listening for client driver connections on port 28015
+2016-12-28T11:21:11.327676325 0.437043s notice: Listening for administrative HTTP connections on port 8080
+2016-12-28T11:21:11.327680833 0.437048s notice: Listening on cluster addresses: 127.0.0.1, 127.0.1.1, ::1
+2016-12-28T11:21:11.327686854 0.437054s notice: Listening on driver addresses: 127.0.0.1, 127.0.1.1, ::1
+2016-12-28T11:21:11.327690849 0.437058s notice: Listening on http addresses: 127.0.0.1, 127.0.1.1, ::1
+2016-12-28T11:21:11.327695165 0.437062s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-12-28T11:21:11.327699880 0.437067s notice: Server ready, "Salted_Eggs_3cf" ffd93f3b-4396-4e2d-b70c-72ccfb3cb78a
+2016-12-28T11:21:52.522191522 41.631559s info: Table 5a9164da-7e9f-4ee2-8d35-e470fcd56066: Starting a new Raft election for term 1.
+2016-12-28T11:21:52.522364137 41.631731s info: Table 5a9164da-7e9f-4ee2-8d35-e470fcd56066: Added replica on this server.
+2016-12-28T11:21:52.571381938 41.680749s info: Table 5a9164da-7e9f-4ee2-8d35-e470fcd56066: This server is Raft leader for term 1. Latest log index is 0.
+2016-12-28T11:24:03.483061109 172.592428s info: Table 2e2b8726-3498-4b9f-9a3a-6dd62547d1cd: Starting a new Raft election for term 1.
+2016-12-28T11:24:03.483209015 172.592576s info: Table 2e2b8726-3498-4b9f-9a3a-6dd62547d1cd: Added replica on this server.
+2016-12-28T11:24:03.518532723 172.627900s info: Table 2e2b8726-3498-4b9f-9a3a-6dd62547d1cd: This server is Raft leader for term 1. Latest log index is 0.
