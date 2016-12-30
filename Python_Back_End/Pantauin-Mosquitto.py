@@ -3,6 +3,10 @@
 import sys
 import pantauinMessage_pb2
 import paho.mqtt.client as mqtt
+import rethinkdb as r
+
+r.connect("localhost", 28015).repl()
+
 
 # This is the Subscriber
 
@@ -20,12 +24,13 @@ def message_decoder(message):
 
 
 def on_message(client, userdata, msg):
-    if (msg.payload == "Hello world!"):
-        print("Yes!")
-        client.disconnect()
+    data = message_decoder(msg.payload)
+    r.db("geothermal").table("log_mustikajaya").insert(
+        {"nodeID": data[0], "sensorValue": data[1], "nodeStatus": data[2] }
+    ).run()
+    print("Data Submitted")
 
-    else:
-        print(message_decoder(msg.payload)[0])
+
 
 
 

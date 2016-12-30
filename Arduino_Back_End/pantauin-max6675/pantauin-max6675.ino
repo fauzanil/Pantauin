@@ -130,8 +130,8 @@ void loop() {
   Pantauin message;
   message.id =2;
   message.sensorValue = ktc.readCelsius();
-  message.nodeStatus = 1;
-
+  message.nodeStatus = true;
+  delay(200);
   
   // Prepare to encode nessage
   pb_ostream_t buffer = pb_ostream_from_buffer(sMsg, sizeof(sMsg));

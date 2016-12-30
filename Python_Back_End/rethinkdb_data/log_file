@@ -38,3 +38,106 @@
 2016-12-28T11:24:03.483061109 172.592428s info: Table 2e2b8726-3498-4b9f-9a3a-6dd62547d1cd: Starting a new Raft election for term 1.
 2016-12-28T11:24:03.483209015 172.592576s info: Table 2e2b8726-3498-4b9f-9a3a-6dd62547d1cd: Added replica on this server.
 2016-12-28T11:24:03.518532723 172.627900s info: Table 2e2b8726-3498-4b9f-9a3a-6dd62547d1cd: This server is Raft leader for term 1. Latest log index is 0.
+2016-12-28T12:04:33.774877473 2602.884245s error: Inaccessible database file: "/home/fauzanil/PycharmProjects/Pantauin/Backend/rethinkdb_data/tmp/fd0155e3-d66c-4f6e-a928-5a8a7dc75982.create": No such file or directory\nSome possible reasons:\n- the database file couldn't be created or opened for reading and writing\n- the user which was used to start the database is not an owner of the file
+2016-12-28T12:04:53.114877765 0.108871s notice: Running rethinkdb 2.3.5~0xenial (GCC 5.3.1)...
+2016-12-28T12:04:53.127160178 0.121156s notice: Running on Linux 4.4.0-53-generic x86_64
+2016-12-28T12:04:53.127230664 0.121224s notice: Loading data from directory /home/fauzanil/PycharmProjects/Pantauin/Python_Back_End/rethinkdb_data
+2016-12-28T12:04:53.204776619 0.198770s info: Automatically using cache size of 100 MB
+2016-12-28T12:04:53.204900087 0.198893s warn: Cache size does not leave much memory for server and query overhead (available memory: 1111 MB).
+2016-12-28T12:04:53.204902426 0.198895s warn: Cache size is very low and may impact performance.
+2016-12-28T12:04:53.205282596 0.199276s notice: Listening for intracluster connections on port 29015
+2016-12-28T12:04:53.664942591 0.658936s notice: Listening for client driver connections on port 28015
+2016-12-28T12:04:53.665226571 0.659220s notice: Listening for administrative HTTP connections on port 8080
+2016-12-28T12:04:53.665232395 0.659225s notice: Listening on cluster addresses: 127.0.0.1, 127.0.1.1, ::1
+2016-12-28T12:04:53.665237482 0.659230s notice: Listening on driver addresses: 127.0.0.1, 127.0.1.1, ::1
+2016-12-28T12:04:53.665241331 0.659234s notice: Listening on http addresses: 127.0.0.1, 127.0.1.1, ::1
+2016-12-28T12:04:53.665244543 0.659237s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-12-28T12:04:53.665247285 0.659240s notice: Server ready, "Salted_Eggs_3cf" ffd93f3b-4396-4e2d-b70c-72ccfb3cb78a
+2016-12-28T12:04:54.794897642 1.788891s info: Table fd0155e3-d66c-4f6e-a928-5a8a7dc75982: Starting a new Raft election for term 1.
+2016-12-28T12:04:54.842616757 1.836610s info: Table fd0155e3-d66c-4f6e-a928-5a8a7dc75982: This server is Raft leader for term 1. Latest log index is 0.
+2016-12-28T12:04:54.886461402 1.880455s info: Table 2e2b8726-3498-4b9f-9a3a-6dd62547d1cd: Starting a new Raft election for term 2.
+2016-12-28T12:04:54.942647740 1.936641s info: Table 2e2b8726-3498-4b9f-9a3a-6dd62547d1cd: This server is Raft leader for term 2. Latest log index is 2.
+2016-12-28T12:04:55.066051769 2.060045s info: Table 5a9164da-7e9f-4ee2-8d35-e470fcd56066: Starting a new Raft election for term 2.
+2016-12-28T12:04:55.120007752 2.114001s info: Table 5a9164da-7e9f-4ee2-8d35-e470fcd56066: This server is Raft leader for term 2. Latest log index is 2.
+2016-12-28T12:07:02.501339760 129.495333s info: Table 4d613859-9194-403c-ac2b-32e9ae835280: Starting a new Raft election for term 1.
+2016-12-28T12:07:02.501523774 129.495517s info: Table 4d613859-9194-403c-ac2b-32e9ae835280: Added replica on this server.
+2016-12-28T12:07:02.549146407 129.543140s info: Table 4d613859-9194-403c-ac2b-32e9ae835280: This server is Raft leader for term 1. Latest log index is 0.
+2016-12-28T12:51:41.436752158 2808.430745s info: Table 562f4b2c-0427-4233-9103-917d69dde176: Starting a new Raft election for term 1.
+2016-12-28T12:51:41.436889627 2808.430883s info: Table 562f4b2c-0427-4233-9103-917d69dde176: Added replica on this server.
+2016-12-28T12:51:41.542000398 2808.535994s info: Table 562f4b2c-0427-4233-9103-917d69dde176: This server is Raft leader for term 1. Latest log index is 0.
+2016-12-28T13:07:53.482336252 3780.476329s notice: Removing file /home/fauzanil/PycharmProjects/Pantauin/Python_Back_End/rethinkdb_data/562f4b2c-0427-4233-9103-917d69dde176
+2016-12-28T13:07:53.482348674 3780.476342s info: Table 562f4b2c-0427-4233-9103-917d69dde176: Deleted the table.
+2016-12-28T13:08:01.924566642 3788.918560s info: Table c87ddf02-9b29-4dd9-9641-56b0e0c80c3d: Starting a new Raft election for term 1.
+2016-12-28T13:08:01.924669333 3788.918662s info: Table c87ddf02-9b29-4dd9-9641-56b0e0c80c3d: Added replica on this server.
+2016-12-28T13:08:01.993512447 3788.987506s info: Table c87ddf02-9b29-4dd9-9641-56b0e0c80c3d: This server is Raft leader for term 1. Latest log index is 0.
+2016-12-28T13:25:31.780700066 4838.774693s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2016-12-28T13:25:31.802885431 4838.796879s notice: Shutting down client connections...
+2016-12-28T13:25:31.803001816 4838.796995s notice: All client connections closed.
+2016-12-28T13:25:31.803004304 4838.796997s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-12-28T13:25:32.130422261 4839.124416s notice: Storage engine shut down.
+2016-12-28T13:27:09.115267425 0.541370s notice: Running rethinkdb 2.3.5~0xenial (GCC 5.3.1)...
+2016-12-28T13:27:09.164596875 0.590702s notice: Running on Linux 4.4.0-53-generic x86_64
+2016-12-28T13:27:09.164673283 0.590775s notice: Loading data from directory /home/fauzanil/PycharmProjects/Pantauin/Python_Back_End/rethinkdb_data
+2016-12-28T13:27:09.417235343 0.843338s info: Automatically using cache size of 100 MB
+2016-12-28T13:27:09.417404813 0.843507s warn: Cache size does not leave much memory for server and query overhead (available memory: 911 MB).
+2016-12-28T13:27:09.417407985 0.843510s warn: Cache size is very low and may impact performance.
+2016-12-28T13:27:09.417815875 0.843918s notice: Listening for intracluster connections on port 29015
+2016-12-28T13:27:09.643613617 1.069716s notice: Listening for client driver connections on port 28015
+2016-12-28T13:27:09.643820768 1.069923s notice: Listening for administrative HTTP connections on port 8080
+2016-12-28T13:27:09.643826637 1.069929s notice: Listening on cluster addresses: 127.0.0.1, 127.0.1.1, ::1
+2016-12-28T13:27:09.643830767 1.069933s notice: Listening on driver addresses: 127.0.0.1, 127.0.1.1, ::1
+2016-12-28T13:27:09.643871288 1.069973s notice: Listening on http addresses: 127.0.0.1, 127.0.1.1, ::1
+2016-12-28T13:27:09.643874557 1.069976s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-12-28T13:27:09.643877104 1.069979s notice: Server ready, "Salted_Eggs_3cf" ffd93f3b-4396-4e2d-b70c-72ccfb3cb78a
+2016-12-28T13:27:10.553948498 1.980051s info: Table 4d613859-9194-403c-ac2b-32e9ae835280: Starting a new Raft election for term 2.
+2016-12-28T13:27:10.607433705 2.033536s info: Table 5a9164da-7e9f-4ee2-8d35-e470fcd56066: Starting a new Raft election for term 3.
+2016-12-28T13:27:10.742489585 2.168592s info: Table 4d613859-9194-403c-ac2b-32e9ae835280: This server is Raft leader for term 2. Latest log index is 3.
+2016-12-28T13:27:10.814294764 2.240397s info: Table 5a9164da-7e9f-4ee2-8d35-e470fcd56066: This server is Raft leader for term 3. Latest log index is 5.
+2016-12-28T13:27:11.018384515 2.444487s info: Table c87ddf02-9b29-4dd9-9641-56b0e0c80c3d: Starting a new Raft election for term 2.
+2016-12-28T13:27:11.095829056 2.521931s info: Table fd0155e3-d66c-4f6e-a928-5a8a7dc75982: Starting a new Raft election for term 2.
+2016-12-28T13:27:11.422606176 2.848709s info: Table c87ddf02-9b29-4dd9-9641-56b0e0c80c3d: This server is Raft leader for term 2. Latest log index is 2.
+2016-12-28T13:27:11.422666679 2.848769s info: Table fd0155e3-d66c-4f6e-a928-5a8a7dc75982: This server is Raft leader for term 2. Latest log index is 2.
+2016-12-28T13:27:11.459269578 2.885372s info: Table 2e2b8726-3498-4b9f-9a3a-6dd62547d1cd: Starting a new Raft election for term 3.
+2016-12-28T13:27:11.813443483 3.239546s info: Table 2e2b8726-3498-4b9f-9a3a-6dd62547d1cd: This server is Raft leader for term 3. Latest log index is 5.
+2016-12-28T13:27:22.101060093 13.527162s notice: Removing file /home/fauzanil/PycharmProjects/Pantauin/Python_Back_End/rethinkdb_data/c87ddf02-9b29-4dd9-9641-56b0e0c80c3d
+2016-12-28T13:27:22.101068054 13.527170s info: Table c87ddf02-9b29-4dd9-9641-56b0e0c80c3d: Deleted the table.
+2016-12-28T13:27:28.882627125 20.308729s info: Table 60911ff3-6c50-4e22-83ac-c44b3666e9bb: Starting a new Raft election for term 1.
+2016-12-28T13:27:28.882827913 20.308930s info: Table 60911ff3-6c50-4e22-83ac-c44b3666e9bb: Added replica on this server.
+2016-12-28T13:27:28.986921849 20.413024s info: Table 60911ff3-6c50-4e22-83ac-c44b3666e9bb: This server is Raft leader for term 1. Latest log index is 0.
+2016-12-28T13:32:58.422259240 349.848361s notice: Removing file /home/fauzanil/PycharmProjects/Pantauin/Python_Back_End/rethinkdb_data/60911ff3-6c50-4e22-83ac-c44b3666e9bb
+2016-12-28T13:32:58.422268184 349.848370s info: Table 60911ff3-6c50-4e22-83ac-c44b3666e9bb: Deleted the table.
+2016-12-28T13:33:27.323010255 378.749112s info: Table 99ecb3fa-be72-4cf1-84b1-b679cc01ef5e: Starting a new Raft election for term 1.
+2016-12-28T13:33:27.323128321 378.749231s info: Table 99ecb3fa-be72-4cf1-84b1-b679cc01ef5e: Added replica on this server.
+2016-12-28T13:33:27.366905535 378.793008s info: Table 99ecb3fa-be72-4cf1-84b1-b679cc01ef5e: This server is Raft leader for term 1. Latest log index is 0.
+2016-12-28T14:40:40.199228332 3102.401433s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2016-12-28T14:40:40.199319800 3102.401524s notice: Shutting down client connections...
+2016-12-28T14:40:40.199402709 3102.401607s notice: All client connections closed.
+2016-12-28T14:40:40.199404929 3102.401609s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-12-28T14:40:40.275202061 3102.477406s notice: Storage engine shut down.
+2016-12-28T17:37:41.598701635 5.333245s notice: Running rethinkdb 2.3.5~0xenial (GCC 5.3.1)...
+2016-12-28T17:37:41.686157819 5.420703s notice: Running on Linux 4.4.0-57-generic x86_64
+2016-12-28T17:37:41.686220824 5.420764s notice: Loading data from directory /home/fauzanil/PycharmProjects/Pantauin/Python_Back_End/rethinkdb_data
+2016-12-28T17:37:42.566724126 6.301268s info: Automatically using cache size of 304 MB
+2016-12-28T17:37:42.567324518 6.301868s notice: Listening for intracluster connections on port 29015
+2016-12-28T17:37:45.194496420 8.929040s info: Table 2e2b8726-3498-4b9f-9a3a-6dd62547d1cd: Starting a new Raft election for term 4.
+2016-12-28T17:37:45.312263689 9.046807s notice: Listening for client driver connections on port 28015
+2016-12-28T17:37:45.313602758 9.048146s notice: Listening for administrative HTTP connections on port 8080
+2016-12-28T17:37:45.313605671 9.048149s notice: Listening on cluster addresses: 127.0.0.1, 127.0.1.1, ::1
+2016-12-28T17:37:45.313607371 9.048150s notice: Listening on driver addresses: 127.0.0.1, 127.0.1.1, ::1
+2016-12-28T17:37:45.313609105 9.048152s notice: Listening on http addresses: 127.0.0.1, 127.0.1.1, ::1
+2016-12-28T17:37:45.313610921 9.048154s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-12-28T17:37:45.313612828 9.048156s notice: Server ready, "Salted_Eggs_3cf" ffd93f3b-4396-4e2d-b70c-72ccfb3cb78a
+2016-12-28T17:37:45.630110623 9.364654s info: Table 2e2b8726-3498-4b9f-9a3a-6dd62547d1cd: This server is Raft leader for term 4. Latest log index is 8.
+2016-12-28T17:37:45.903570819 9.638114s info: Table 4d613859-9194-403c-ac2b-32e9ae835280: Starting a new Raft election for term 3.
+2016-12-28T17:37:46.001074979 9.735618s info: Table 5a9164da-7e9f-4ee2-8d35-e470fcd56066: Starting a new Raft election for term 4.
+2016-12-28T17:37:46.380989526 10.115533s info: Table 99ecb3fa-be72-4cf1-84b1-b679cc01ef5e: Starting a new Raft election for term 2.
+2016-12-28T17:37:46.644598050 10.379141s info: Table 4d613859-9194-403c-ac2b-32e9ae835280: This server is Raft leader for term 3. Latest log index is 6.
+2016-12-28T17:37:46.644649803 10.379193s info: Table 5a9164da-7e9f-4ee2-8d35-e470fcd56066: This server is Raft leader for term 4. Latest log index is 8.
+2016-12-28T17:37:46.769612021 10.504156s info: Table 99ecb3fa-be72-4cf1-84b1-b679cc01ef5e: This server is Raft leader for term 2. Latest log index is 2.
+2016-12-28T17:37:47.130556862 10.865100s info: Table fd0155e3-d66c-4f6e-a928-5a8a7dc75982: Starting a new Raft election for term 3.
+2016-12-28T17:37:47.337314463 11.071858s info: Table fd0155e3-d66c-4f6e-a928-5a8a7dc75982: This server is Raft leader for term 3. Latest log index is 5.
+2016-12-28T18:01:47.754999654 1451.489543s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2016-12-28T18:01:47.755098141 1451.489641s notice: Shutting down client connections...
+2016-12-28T18:01:47.755202869 1451.489746s notice: All client connections closed.
+2016-12-28T18:01:47.755205427 1451.489748s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-12-28T18:01:47.819877493 1451.554421s notice: Storage engine shut down.
